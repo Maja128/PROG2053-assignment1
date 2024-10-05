@@ -1,0 +1,267 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Medium.ttf');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Light.ttf');
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Italic.ttf');
+    font-style: italic;
+}
+
+
+
+/*Document*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: rgb(33, 40, 53);
+    text-align: center;
+}
+
+.first {
+    background-color: rgb(33, 40, 53);
+    color: white;
+}
+
+.second {
+    padding: 50px;
+}
+
+.third {
+    padding: 100px 26% 80px 26%;
+    background-color: rgb(228, 229, 234);
+}
+
+.fourth {
+    padding: 100px 15% 100px 15%;
+}
+
+.footer {
+    background-color: rgb(33, 40, 53);
+    height: 125px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+/*Headers*/
+h1 {
+    padding-top: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    padding-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+/*Text*/
+p {
+    margin: 5px 0 5px 0;
+}
+
+p.headerlinks {
+    padding: 10px;
+}
+
+a {
+    padding: 5px;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+
+/*Grids*/
+span.grid {
+    display: grid;
+    font-size: 1.3em;
+    color: white;
+    align-items: center;
+}
+
+#firstsectiongrid {
+    padding: 75px 16% 75px 16%;
+    grid-template-columns: 42% 42%;
+    grid-template-rows: 250px;
+    column-gap: 16%;
+}
+
+#fourthsectiongrid {
+    padding: 0 13% 0 13%;
+    grid-template-columns: 67% 33%;
+    grid-template-rows: 100%;
+}
+
+#firstsectioncell2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 115, 124);
+    text-align: center;
+    align-content: center;
+}
+
+#fourthsectioncell1 {
+    text-align: left;
+}
+
+#fourthsectioncell2 {
+    text-align: right;
+}
+
+
+
+/*Buttons*/
+input[type=button] {
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(76, 128, 237);
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#firstsectionbutton {
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+#fourthsectionbutton {
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+
+
+/*Floating rectangle box*/
+.floatingrectanglebox {
+    padding: 0 20% 0 20%;
+    font-size: 1.3em;
+    font-weight: light;
+    text-align: justify;
+}
+
+
+
+/*Padding space*/
+.space {
+    clear: both;
+    height: 70px;
+}
+
+
+
+/*Rectangles*/
+.rectangle {
+    width: 40%;
+    height: 175px;
+    border: 5px solid rgb(76, 128, 237);
+    border-radius: 12px;
+}
+
+#rectangleleft {
+    float: left;
+    margin-right: 5%;
+}
+
+#rectangleright {
+    float: right;
+    margin-left: 5%;
+}
+
+
+
+/*Quote*/
+.quote {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.quoteauthor {
+    margin: 0 15px 0 0;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+/*Colored box*/
+.box {
+    background-color: rgb(76, 128, 237);
+    width: 100%;
+    height: 175px;
+    border-radius: 12px;
+    align-content: center;
+}
+
+
+
+/*Page 2 and 3*/
+h4 {
+    font-size: 25px;
+}
+
+#page2content {
+    padding: 50px 10% 0 10%;
+}
+
+.page2row {
+    display: grid;
+    padding-bottom: 50px;
+    grid-template-columns: 28% 28% 28%;
+    column-gap: 8%;
+    font-size: 1.3em;
+}
+
+#page3content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+.page3city {
+    padding: 50px 5% 50px 5%;
+}
